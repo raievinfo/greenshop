@@ -35,11 +35,21 @@
 }
 
 .text{
-    margin-bottom: 16px; margin-left: 100px; margin-right: 100px;
+    margin-bottom: 16px; 
+    margin-left: 100px; 
+    margin-right: 100px;
 }
 .button{
-    margin-bottom: 36px; margin-left: 100px; margin-right: 100px; width: 300px; height: 40px;
+    margin-bottom: 36px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    width: 300px; 
+    height: 40px;
 }
 .button2{
-    margin-bottom: 36px; margin-left: 100px; margin-right: 100px; width: 300px; height: 40px;
+    margin-bottom: 36px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    width: 300px; 
+    height: 40px;
 }
