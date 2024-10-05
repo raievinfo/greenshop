@@ -1,0 +1,25 @@
+.box{
+    max-width: 500px;
+     border: solid 2px black; 
+     margin: auto; 
+    padding: 50px 100px;
+}
+
+.log_reg{
+    text-align: center;
+    color: #46A358; 
+    margin-bottom: 40px;
+}
+.log_reg1{
+    text-align: center;
+    color: #46A358; 
+    margin-bottom: 40px;
+}
+.Login{
+    margin-bottom: 14px; 
+    text-align: center;
+}
+
+.register{
+    text-align: center;
+}
