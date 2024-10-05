@@ -29,15 +29,16 @@
 }
 
 .input2{
-    margin-bottom: 16px; 
-    margin-left: 100px;
-     margin-right: 100px;
+    margin-bottom: 41px; 
+    margin-left: 100px; 
+    margin-right: 100px;
 }
 
 .text{
-    margin-bottom: 16px; 
-    margin-left: 100px; 
-    margin-right: 100px;
+    width: 300px; 
+    height: 40px; 
+    padding-left: 14px;
+    box-sizing: border-box;
 }
 .button{
     margin-bottom: 36px; 
@@ -47,9 +48,9 @@
     height: 40px;
 }
 .button2{
-    margin-bottom: 36px; 
-    margin-left: 100px; 
-    margin-right: 100px; 
-    width: 300px; 
-    height: 40px;
+    background-color: #46A358;
+     padding-top: 16px; 
+     padding-left: 118px; 
+     padding-bottom: 13px; 
+     padding-right: 119px; 
 }
