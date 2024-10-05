@@ -6,8 +6,7 @@
 }
 
 .log_reg{
-    text-align: center;
-     
+    text-align: center; 
     margin-bottom: 40px;}
 .log_reg1{
         text-align: center;
@@ -21,4 +20,10 @@
 
 .register{
     text-align: center;
+}
+
+.input{
+    margin-bottom: 16px; 
+    margin-left: 100px; 
+    margin-right: 100px;
 }
