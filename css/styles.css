@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .box{
     max-width: 500px;
      border: solid 2px; 
@@ -69,4 +74,21 @@
 a{
     text-decoration: none;
     color: #000;
+    display: inline-block;
+}
+header{
+    padding-top: 30px;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .container{
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
 }
