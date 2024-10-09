@@ -117,9 +117,6 @@ header .login{
     transition: 0.6s;
     margin-bottom: 18px;
 }
-header .login:hover{
-   transform: rotate(360deg);
-}
 
 header .login:before{
     content: "";
