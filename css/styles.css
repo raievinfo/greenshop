@@ -140,31 +140,56 @@ header nav li:hover:after{
     width: 100%;
 }
 
-h2{
-    width: 530px;
-height: 140px;
---font-family: "Cera Pro", sans-serif;
-}
-
-.planet{
-    color: #46A358;
+h3{
+    width: 205px;
+    height: 16px;
     margin-top: 68px;
-    margin-bottom: 5px;
-    margin-left: 44px;
-    margin-right: 951px;
+margin-left: 44px;
+margin-right: 951px;
+margin-bottom: 7px;
+--font-family: "Cera Pro", sans-serif;
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
 line-height: 114%;
 letter-spacing: 0.1em;
 text-transform: uppercase;
-color: #3d3d3d;  
+color: #3d3d3d;
+}
+h2{
+    width: 530px;
+height: 140px;
+--font-family: "Cera Pro", sans-serif;
+margin-top: 91x;
+margin-left: 40px;
+margin-right: 630px;
+margin-bottom: 5px;
+font-family: var(--font-family);
+font-weight: 900;
+font-size: 70px;
+line-height: 100%;
+text-transform: uppercase;
+color: #3d3d3d;
+}
+
+.planet{
+    color: #46A358;
+    margin-bottom: 5px;
 }
 
 p{
     --font-family: "Cera Pro", sans-serif;
     width: 557px;
     height: 45px;
+    margin-top: 236x;
+margin-left: 43px;
+margin-right: 600px;
+margin-bottom: 169px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+color: #727272;
 }
 
 .box_2{
