@@ -152,6 +152,7 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 color: #3d3d3d;
 margin-bottom: 7px;
+margin-top: 68px;
 }
 h2{
     width: 530px;
@@ -191,7 +192,8 @@ color: #727272;
 
 .box_2{
     max-width: 1200px;
-     border: solid 2px; 
+     display: flex;
+     margin: auto;
 }
 
 
@@ -211,4 +213,9 @@ line-height: 125%;
 text-transform: uppercase;
 color: #fff;
 padding: 11px 27px 9px 26px;
+}
+
+.plants{
+   
+    display: flex;
 }
