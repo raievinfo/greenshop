@@ -313,9 +313,12 @@ color: #46A358;
 }
 
 .main_product_items article{
- max-width: 250px;   
+ max-width: 250px;
+ margin-top: 41px;   
 }
 
+.card{
+}
 
 .card a img{
     background-color: #FBFBFB;
@@ -339,5 +342,6 @@ color: #46A358;
 }
 
 .page{
+    margin-top: 90px;
     margin-left: 600px;
 }
