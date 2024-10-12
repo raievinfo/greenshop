@@ -308,7 +308,7 @@ color: #46A358;
 .main_product_items{
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
 .main_product_items article{
@@ -320,6 +320,8 @@ color: #46A358;
 
 .card a img{
     background-color: #FBFBFB;
+    width: 250px;
+    height: 250px;
 }
 
 .card_text{
@@ -336,3 +338,4 @@ color: #46A358;
         line-height: 89%;
         color: #46a358;
 }
+
