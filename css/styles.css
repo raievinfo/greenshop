@@ -219,3 +219,36 @@ padding: 11px 27px 9px 26px;
    
     display: flex;
 }
+
+.product .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .left_side{
+    max-width: 310px;
+    background-color: #FBFBFB;
+}
+
+.product .right_side{
+    max-width: 840px;
+    width: 100%;
+}
+
+.product .product_sort{
+    display: flex;
+    justify-content: space-between;
+}
+.product .product_sort ul{
+    display: flex;
+}
+
+.main_product_items{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_product_items article{
+ max-width: 250px;   
+}
