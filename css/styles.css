@@ -61,10 +61,10 @@
 }
 
 .reg{
-    width: 300px;	height: 40px; /* Размеры */
-    outline: 2px solid #000; /* Чёрная рамка */
-    border: 3px solid #fff; /* Белая рамка */
-    border-radius: 3px; /* Радиус скругления */
+    width: 300px;	height: 40px; 
+    outline: 2px solid #000; 
+    border: 3px solid #fff; 
+    border-radius: 3px; 
     margin: auto; 
     margin-bottom: 15px;
     text-align: center;
@@ -139,9 +139,11 @@ header nav li:after{
 header nav li:hover:after{
     width: 100%;
 }
-
+.text_box{
+    padding-left: 43px;
+}
 h3{
-    width: 205px;
+    
     height: 16px;
 --font-family: "Cera Pro", sans-serif;
     font-family: var(--font-family);
@@ -181,7 +183,7 @@ display: inline;
 
 p{
     --font-family: "Cera Pro", sans-serif;
-    width: 557px;
+   
     height: 45px;
     font-family: var(--font-family);
 font-weight: 400;
@@ -199,10 +201,10 @@ color: #727272;
 
 .shop{
     margin-top: 45px;
-    width: 140;	height: 40px; /* Размеры */
-    outline: 2px solid #46A358/* Чёрная рамка */
-    border: 3px solid #fff; /* Белая рамка */
-    border-radius: 3px; /* Радиус скругления */
+    width: 140;	height: 40px; 
+    outline: 2px solid #46A358
+    border: 3px solid #fff; 
+    border-radius: 3px; 
     text-align: center;
     background-color: #46A358;
     --font-family: "Cera Pro", sans-serif;
@@ -233,6 +235,8 @@ font-weight: 700;
 font-size: 18px;
 line-height: 89%;
 color: #3d3d3d;
+margin-bottom: 14px;
+margin-left: 18px;
 }
 
 .left_side li{
@@ -243,15 +247,16 @@ font-weight: 400;
 font-size: 15px;
 line-height: 267%;
 color: #46A358;
+margin-left: 30px;
 }
 
 .left_side ul li a {
-    color: #3d3d3d; /* Початковий колір */
-    transition: color 0.3s ease; /* Анімація зміни кольору */
+    color: #3d3d3d; 
+    transition: color 0.3s ease;
   }
   
   .left_side ul li a:hover {
-    color: #46A358; /* Колір при наведенні */
+    color: #46A358; 
   }
 
   
@@ -281,14 +286,12 @@ color: #46A358;
 }
 
 .product_sort ul li a{
-    color: #3d3d3d; /* Початковий колір */
-    transition: color 0.3s ease; /* Анімація зміни кольору */
+    color: #3d3d3d; 
+    transition: color 0.3s ease; 
     margin-left: 37px;
 }
 
-.default_sorting{
-    margin-left: 385px;
-}
+
 
 .product_sort ul li a:hover{
     color: #46A358;
@@ -341,7 +344,50 @@ color: #46A358;
         color: #46a358;
 }
 
-.page{
+.page-list {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
     margin-top: 90px;
-    margin-left: 600px;
-}
+  }
+  
+  .page-list li {
+    background-color: white; 
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc; 
+  }
+  
+  .page-list li:hover {
+    background-color: green; 
+  }
+  
+  .page-list li:hover a {
+    color: white; 
+  }
+  
+  .page-list a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .page-list .arrow {
+    background-color: white; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px;
+    cursor: default;
+    color: #333;
+  }
+  
+  .page-list .arrow:hover {
+    background-color: white; 
+    color: #333; 
+  }
+  
+  
