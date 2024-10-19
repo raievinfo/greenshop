@@ -61,10 +61,10 @@
 }
 
 .reg{
-    width: 300px;	height: 40px; 
-    outline: 2px solid #000; 
-    border: 3px solid #fff; 
-    border-radius: 3px; 
+    width: 300px;	height: 40px; /* Размеры */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 3px; /* Радиус скругления */
     margin: auto; 
     margin-bottom: 15px;
     text-align: center;
@@ -142,7 +142,7 @@ header nav li:hover:after{
 .text_box{
     padding-left: 43px;
 }
-h3{
+.welcome_head_text{
     
     height: 16px;
 --font-family: "Cera Pro", sans-serif;
@@ -181,7 +181,7 @@ text-transform: uppercase;
 display: inline;
 }
 
-p{
+.welcome_text{
     --font-family: "Cera Pro", sans-serif;
    
     height: 45px;
@@ -201,10 +201,10 @@ color: #727272;
 
 .shop{
     margin-top: 45px;
-    width: 140;	height: 40px; 
-    outline: 2px solid #46A358
-    border: 3px solid #fff; 
-    border-radius: 3px; 
+    width: 140;	height: 40px; /* Размеры */
+    outline: 2px solid #46A358/* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 3px; /* Радиус скругления */
     text-align: center;
     background-color: #46A358;
     --font-family: "Cera Pro", sans-serif;
@@ -251,12 +251,12 @@ margin-left: 30px;
 }
 
 .left_side ul li a {
-    color: #3d3d3d; 
-    transition: color 0.3s ease;
+    color: #3d3d3d; /* Початковий колір */
+    transition: color 0.3s ease; /* Анімація зміни кольору */
   }
   
   .left_side ul li a:hover {
-    color: #46A358; 
+    color: #46A358; /* Колір при наведенні */
   }
 
   
@@ -286,8 +286,8 @@ margin-left: 30px;
 }
 
 .product_sort ul li a{
-    color: #3d3d3d; 
-    transition: color 0.3s ease; 
+    color: #3d3d3d; /* Початковий колір */
+    transition: color 0.3s ease; /* Анімація зміни кольору */
     margin-left: 37px;
 }
 
@@ -320,8 +320,7 @@ margin-left: 30px;
  margin-top: 41px;   
 }
 
-.card{
-}
+
 
 .card a img{
     background-color: #FBFBFB;
@@ -330,8 +329,15 @@ margin-left: 30px;
 }
 
 .card_text{
-        --font-family: "Cera Pro", sans-serif;
-        --second-family: "Hanging Letters", sans-serif;
+    --font-family: "Cera Pro", sans-serif;
+   
+    height: 45px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+color:#3D3D3D;
+
 }
 
 .card_price{
@@ -355,19 +361,19 @@ margin-left: 30px;
   }
   
   .page-list li {
-    background-color: #E5E5E5; 
+    background-color: white; /* Default background color is white */
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc; /* Border for all items */
   }
   
   .page-list li:hover {
-    background-color: #46A358; 
+    background-color: green; /* Background changes to green on hover */
   }
   
   .page-list li:hover a {
-    color: #E5E5E5; 
+    color: white; /* Text color changes to white on hover */
   }
   
   .page-list a {
@@ -377,8 +383,8 @@ margin-left: 30px;
   }
   
   .page-list .arrow {
-    background-color: #E5E5E5; 
-    border: 1px solid #ccc; 
+    background-color: white; /* Same as list items */
+    border: 1px solid #ccc; /* Border like page items */
     padding: 10px;
     border-radius: 5px;
     cursor: default;
@@ -386,8 +392,67 @@ margin-left: 30px;
   }
   
   .page-list .arrow:hover {
-    background-color: #E5E5E5; 
-    color: #333; 
+    background-color: white; /* Arrow background doesn't change */
+    color: #333; /* Arrow color doesn't change */
   }
   
-  
+.blog{
+    max-width: 1200px;
+     display: flex;
+     margin: auto;
+}
+
+.blog_element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_text_container{
+    display: flex;
+    align-items: center;
+}
+
+ .blog_text{
+    --font-family: "Cera Pro", sans-serif;
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 18px;
+line-height: 133%;
+text-transform: uppercase;
+text-align: right;
+color: #3d3d3d;
+height: 48px;
+ } 
+
+ .blog_text_2{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+text-align: right;
+color: #727272;
+ }
+
+ .find_button{
+    width: 140;	height: 40px; 
+    outline: 2px solid #46A358
+    border: 3px solid #fff; 
+    border-radius: 3px;
+    text-align: center;
+    background-color: #46A358;
+    --font-family: "Cera Pro", sans-serif;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+padding: 11px 47px 9px 28px;
+}
+
+.blog article a:after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background: url(C:\Users\raevn\Desktop\test\images\ArrowRight.svg);
+}
