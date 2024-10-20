@@ -408,7 +408,7 @@ color:#3D3D3D;
 }
 
 .blog_text_container{
-    display: flex;
+   
     align-items: center;
 }
 
@@ -434,9 +434,8 @@ color: #727272;
  }
 
  .find_button{
-    width: 140;	height: 40px; 
-    outline: 2px solid #46A358
-    border: 3px solid #fff; 
+   	height: 40px; 
+    
     border-radius: 3px;
     text-align: center;
     background-color: #46A358;
