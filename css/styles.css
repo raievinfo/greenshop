@@ -81,7 +81,6 @@ header{
 }
 .container{
     max-width: 1200px;
-    display: flex;
     margin: auto;
 }
 header .container{
@@ -287,8 +286,8 @@ margin-left: 30px;
 }
 
 .product_sort ul li a{
-    color: #3d3d3d; /* Початковий колір */
-    transition: color 0.3s ease; /* Анімація зміни кольору */
+    color: #3d3d3d; 
+    transition: color 0.3s ease; 
     margin-left: 37px;
 }
 
@@ -398,9 +397,8 @@ color:#3D3D3D;
   }
   
 .blog{
-    max-width: 1200px;
      display: flex;
-     margin: auto
+     gap: 28px;
 }
 
 
@@ -408,12 +406,14 @@ color:#3D3D3D;
     display: flex;
     align-items: center;
     text-align: right;
+    background-color: #FBFBFB;
 }
 
 .blog_element_2{
     display: flex;
     align-items: center;
     text-align: right;
+    background-color: #FBFBFB;
 }
 
 .blog_text_container{
@@ -467,11 +467,14 @@ padding: 11px 47px 9px 28px;
 .blog_post_element{
     max-width: 268px;
     background-color: #FBFBFB;
-   
+    
 }
 
 
-
+.blog_post{
+    display: flex;
+    justify-content: space-between;
+}
 .blog_post_head{
      --font-family: "Cera Pro", sans-serif;
      font-family: var(--font-family);
