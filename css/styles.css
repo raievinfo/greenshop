@@ -316,11 +316,56 @@ margin-left: 30px;
 }
 
 .main_product_items article{
- max-width: 250px;
- margin-top: 41px;   
+        max-width: 250px;
+        margin-top: 41px;
+        border-top: solid 1px transparent;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;    
 }
 
+.main_product_items article:hover{
+    border-top: solid 1px #46A358;
+}
 
+.main_product_items article .sale{
+    position: absolute;
+    background-color: #46A358;
+    padding: 7px 8px 6px 9px;
+    color: white;
+    left: 0;
+    top: 14px;
+}
+
+.main_product_items article .product_options ul li a{
+    position: absolute;
+    bottom: 65px;
+    
+}
+
+.main_product_items article .product_options ul li .product_options_element1:before{
+    content: "";
+    display: flex;
+    gap: 50px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/heart\ 1.svg");
+    
+}
+
+    .main_product_items article .product_options ul li .product_options_element2:before{
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("../images/Frame.svg");
+    
+}
+.main_product_items article .product_options ul li a:hover{
+    
+}
 
 .card a img{
     background-color: #FBFBFB;
@@ -534,6 +579,34 @@ color: #727272;
 }
 
 .post_more:hover{
-    color: #46A358;
+    color: #46A358;   
+}
+header nav .drop_menu{
+    position: relative;
+}
+header nav .sub_menu{
+    position: absolute;
+    min-width: 188px;
+    background-color: #EDF6EE;
+    flex-direction: column;
+    gap: 0;
+    top: 40px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    transition: 0.7s;
 }
 
+header nav .sub_menu li{
+    background-color: #EDF6EE;  
+}
+
+header nav .drop_menu:hover .sub_menu{
+    max-height: 300px;
+}
+header nav .sub_menu li:after{
+    display: none;
+}
+header nav .sub_menu li a{
+    font-weight: normal;
+}
