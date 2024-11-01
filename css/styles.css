@@ -339,32 +339,40 @@ margin-left: 30px;
     top: 14px;
 }
 
-.main_product_items article .product_options ul li a{
+.main_product_items article ul{
     position: absolute;
+    display: flex;
+    gap: 26px;
     bottom: 65px;
     
 }
 
-.main_product_items article .product_options ul li .product_options_element1:before{
+.main_product_items article ul li .product_options_element1:before{
     content: "";
-    display: flex;
-    gap: 50px;
+    display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("../images/heart\ 1.svg");
+    background-image: url("../images/shopping1.svg");
     
 }
 
-    .main_product_items article .product_options ul li .product_options_element2:before{
+    .main_product_items article ul li .product_options_element2:before{
         content: "";
         display: inline-block;
         width: 20px;
         height: 20px;
         background-image: url("../images/Frame.svg");
-    
-}
-.main_product_items article .product_options ul li a:hover{
-    
+    }
+
+        .main_product_items article ul li .product_options_element3:before{
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url("../images/heart1.svg");
+        }
+        .main_product_items article ul li .product_options_element3:hover{
+    background: url("../images/heart1_green.svg");
 }
 
 .card a img{
