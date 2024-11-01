@@ -203,7 +203,7 @@ color: #727272;
     margin-top: 45px;
     width: 140;	height: 40px; /* Размеры */
     outline: 2px solid #46A358/* Чёрная рамка */
-    border: 3px solid #fff; /* Белая рамка */
+    border 3px solid #fff; /* Белая рамка */
     border-radius: 3px; /* Радиус скругления */
     text-align: center;
     background-color: #46A358;
@@ -619,4 +619,3 @@ header nav .sub_menu li a{
     font-weight: normal;
 }
 
-a
