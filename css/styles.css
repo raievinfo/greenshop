@@ -61,10 +61,10 @@
 }
 
 .reg{
-    width: 300px;	height: 40px; /* Размеры */
-    outline: 2px solid #000; /* Чёрная рамка */
-    border: 3px solid #fff; /* Белая рамка */
-    border-radius: 3px; /* Радиус скругления */
+    width: 300px;	height: 40px; 
+    outline: 2px solid #000; 
+    border: 3px solid #fff; 
+    border-radius: 3px; 
     margin: auto; 
     margin-bottom: 15px;
     text-align: center;
@@ -201,10 +201,10 @@ color: #727272;
 
 .shop{
     margin-top: 45px;
-    width: 140;	height: 40px; /* Размеры */
-    outline: 2px solid #46A358/* Чёрная рамка */
-    border 3px solid #fff; /* Белая рамка */
-    border-radius: 3px; /* Радиус скругления */
+    width: 140;	height: 40px; 
+    outline: 2px solid #46A358
+    border 3px solid #fff; 
+    border-radius: 3px; 
     text-align: center;
     background-color: #46A358;
     --font-family: "Cera Pro", sans-serif;
@@ -251,12 +251,12 @@ margin-left: 30px;
 }
 
 .left_side ul li a {
-    color: #3d3d3d; /* Початковий колір */
-    transition: color 0.3s ease; /* Анімація зміни кольору */
+    color: #3d3d3d; 
+    transition: color 0.3s ease; 
   }
   
   .left_side ul li a:hover {
-    color: #46A358; /* Колір при наведенні */
+    color: #46A358;
   }
 
   
@@ -371,8 +371,25 @@ margin-left: 30px;
             height: 20px;
             background: url("../images/heart1.svg");
         }
-        .main_product_items article ul li .product_options_element3:hover{
+        .main_product_items article ul li .product_options_element3:hover:before{
     background: url("../images/heart1_green.svg");
+}
+
+.main_product_items article ul li .product_options_element2:hover:before{
+    background: url("../images/Frame_green.svg");
+}
+
+.main_product_items article ul li .product_options_element1:hover:before{
+    background: url("../images/shopping1_green.svg");
+}
+
+.card_picture{
+    margin-bottom: 20px;
+}
+.card_price span{
+    text-decoration: line-through;
+    color: #CBCBCB;
+    margin-left: 16px;
 }
 
 .card a img{
@@ -404,18 +421,16 @@ color:#3D3D3D;
 }
 
 .page-list {
-    list-style-type: none;
     display: flex;
     gap: 10px;
-    padding: 0;
     align-items: center;
-    justify-content: flex-start;
     margin-top: 90px;
+    margin-bottom: 94px;
   }
   
   .page-list li {
     background-color: white; 
-    padding: 10px;
+    padding: 13px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     border: 1px solid #ccc; 
@@ -435,23 +450,16 @@ color:#3D3D3D;
     transition: color 0.3s ease;
   }
   
-  .page-list .arrow {
-    background-color: white; 
-    border: 1px solid #ccc; 
-    padding: 10px;
-    border-radius: 5px;
-    cursor: default;
-    color: #333;
+  .page-list .arrow:before{
+    content: ">";
+    display: inline-block;
   }
   
-  .page-list .arrow:hover {
-    background-color: white; 
-    color: #333; 
-  }
   
 .blog{
      display: flex;
      gap: 28px;
+     margin-bottom: 138px;
 }
 
 
@@ -459,14 +467,12 @@ color:#3D3D3D;
     display: flex;
     align-items: center;
     text-align: right;
-    background-color: #FBFBFB;
 }
 
 .blog_element_2{
     display: flex;
     align-items: center;
     text-align: right;
-    background-color: #FBFBFB;
 }
 
 .blog_text_container{
@@ -505,7 +511,7 @@ color: #727272;
     font-size: 14px;
     line-height: 143%;
     color: #fff;
-padding: 11px 47px 9px 28px;
+padding: 11px 30px 9px 28px;
 }
 
 .blog_element_text a:after{
@@ -513,7 +519,7 @@ padding: 11px 47px 9px 28px;
     display: inline-block;
     width: 18px;
     height: 14px;
-    
+    margin-left: 2px;
     background: url(../images/ArrowRight.svg);
 }
 
@@ -583,26 +589,28 @@ color: #727272;
     display: inline-block;
     width: 18px;
     height: 14px;
-    background: url(../images/ArrowRight_2.svg);
+    background-image: url(../images/ArrowRight_2.svg);
 }
 
 .post_more:hover{
     color: #46A358;   
 }
-header nav .drop_menu{
+
+.post_more:hover::after{
+    background-image: url(../images/ArrowRight_green.svg);
+}
+
+header nav .dropdowm{
     position: relative;
 }
 header nav .sub_menu{
     position: absolute;
     min-width: 188px;
-    background-color: #EDF6EE;
     flex-direction: column;
     gap: 0;
     top: 40px;
-    height: 0;
-    overflow: hidden;
+    display: none;
     padding-top: 20px;
-    transition: 0.7s;
 }
 
 header nav .sub_menu li{
@@ -610,12 +618,16 @@ header nav .sub_menu li{
 }
 
 header nav .drop_menu:hover .sub_menu{
-    max-height: 300px;
+    display: flex;
 }
+
 header nav .sub_menu li:after{
     display: none;
 }
+
 header nav .sub_menu li a{
     font-weight: normal;
 }
+
+
 
