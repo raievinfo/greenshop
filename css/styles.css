@@ -140,7 +140,7 @@
     margin-right: 4px;
   }
   
-  header nav li a:after {
+  header nav li:after {
     display: block;
     width: 0;
     content: "";
