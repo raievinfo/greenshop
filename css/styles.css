@@ -140,7 +140,7 @@
     margin-right: 4px;
   }
   
-  header nav li:after {
+  header nav li a:after {
     display: block;
     width: 0;
     content: "";
@@ -623,7 +623,6 @@
   
   header nav .sub_menu li {
     background-color: #EDF6EE;
-    padding-bottom: 16px;
   }
   
   header nav .dropdown:hover .sub_menu {
