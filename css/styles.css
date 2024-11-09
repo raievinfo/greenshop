@@ -623,6 +623,7 @@
   
   header nav .sub_menu li {
     background-color: #EDF6EE;
+    padding-bottom: 16px;
   }
   
   header nav .dropdown:hover .sub_menu {
@@ -648,8 +649,8 @@
     position: absolute;
     width: 8px;
     height: 12px;
-    left: 88px;
-    top: 8px;
+    left: 164px;
+    top: 5px;
     margin-top: 0;
     background-color: none;
   }
